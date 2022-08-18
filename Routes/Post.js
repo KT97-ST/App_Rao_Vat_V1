@@ -17,6 +17,7 @@ module.exports =function(app){
                 res.json({kq:0, errMsg:err});
             }else{
                 res.json({kq:1});   
+                // test
             }
         });
     });
